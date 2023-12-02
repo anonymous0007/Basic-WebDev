@@ -2,54 +2,36 @@
 <html>
   <head>
     <title>ping-pong</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <style>
-      h1 {
-        font-size: 40px;
-        font-family: Roboto;
-        font-weight: normal;
-        color: rgb(50,180,125);
-        text-align: center;
-      }
-      h2 {
-        font-size: 20px;
-        font-family: Roboto;
-        font-weight: normal;
-        color: rgb(180,80,25);
-      }
-      .bodytext {
-        font-size: 14px;
-        font-family: Roboto;
-        color: rgb(10,20,75);
-      }
       #banner {
         width: 100%;
-        height:300px;
+        height:360px;
         object-fit: cover;
-        
-      }
-      #container {
-        max-width:720px;
-        margin: 0 auto 0 auto;
-      }
     </style>
     
+    </head>
   </head>
   <body>
-    <div id="container">
-      <h1>Anonymous!</h1>
-      <img id="banner" src="https://basic-webdev--subhasardaranon.repl.co/static/a.jpg" height="160" width="460">
+    <div class="container">
+      <h1 class="text-center shadow-lg p-3 mb-1 bg-body-tertiary rounded">Anonymous!</h1>
+      
+      <img class="img-fluid" id="banner" src="https://basic-webdev--subhasardaranon.repl.co/static/a.jpg">
   
-      <h2>About Community</h2>
+      <h2 class="mb-1">About Community</h2>
   
-      <p class="bodytext">
+      <p>
         Anonymous has grown and evolved from a group mainly focused on pranks to a collective participating in significant social and political movements. However, due to its decentralized structure, the group’s lack of hierarchy and leadership allows for a diverse and sometimes contradictory existence. Individuals or sub-groups often pursue their agendas under the Anonymous banner.
       </p>
   
       <h2>Opening Positions</h2>
-      <p class="bodytext">To be continue...</p>
-        <div style="text-align:center">
-          <button>Contact Us!</button>
-          <p>Copyright 2023, Anonymous</p>
+      <p class="d-inline-flex focus-ring focus-ring-danger py-1 px-2 text-decoration-none border rounded-2">To be continue...</p>
+        <div class="text-center">
+          <button class="btn btn-outline-danger">Contact Us!</button>
+          <p class="mt-2 mb-1">Copyright 2023, Anonymous</p>
         </div>
       </div>
   </body>
